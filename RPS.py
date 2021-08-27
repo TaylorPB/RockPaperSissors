@@ -43,10 +43,10 @@ def Logic_of_Game():
         if( Rock in Answer):
             print(" It is a tie!")
 
-        if (Paper in Answer):
+        if (Sissors in Answer):
             print("Sorry you lose :(")
 
-        if(Sissors in Answer ):
+        if(Paper in Answer ):
             print( " Winner winner chicken dinner!")
 
    if (Paper in RPS_List[Decider]):
